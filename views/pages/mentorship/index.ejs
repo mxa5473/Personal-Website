@@ -1,0 +1,46 @@
+<% var rootPath = '../../'; %>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <%- include(rootPath + 'partials/includes'); %>
+    </head>
+    <body>
+      <%- include(rootPath + 'partials/nav'); %>
+
+        <link rel="stylesheet" href="css/page.css">
+
+        <div class='split-pane col-xs-12 col-sm-6 uiux-side'>
+          <div>
+            <img src='https://bit.ly/BCR-design'>
+            <div class='text-content'>
+              <div class="bold">You want</div>
+              <div class='big'>Coaching call session?</div>
+            </div>
+            <button>
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <div class='split-pane col-xs-12 col-sm-6 frontend-side'>
+          <div>
+            <img src='https://bit.ly/bcr-dev'>
+            <div class='text-content'>
+              <div class="bold">You want</div>
+              <div class='big'>4-Week Mentorship Program?</div>
+            </div>
+            <a class='button'>
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div id='split-pane-or'>
+          <div>
+            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/bcr-white.png'>
+          </div>
+        </div>
+
+        <%- include(rootPath + 'partials/footer'); %>
+    </body>
+</html>
