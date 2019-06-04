@@ -1,0 +1,207 @@
+@media (min-width: 500px)
+{
+    .col-sm-6
+    {
+        width: 50%;
+    }
+}
+
+html,
+body
+{
+    height: 100%;
+
+    min-heigth: 18em;
+}
+
+.culture-side
+{
+      background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/website-post-its.png");
+}
+
+.action-side
+{
+      background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/website-code.png");
+}
+
+.split-panel
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+
+    height: 50%;
+    min-height: 9em;
+    padding-top: 1em;
+
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 500px)
+{
+    .split-panel
+    {
+        height: 100%;
+        padding-top: 2em;
+    }
+}
+
+.split-panel > div
+{
+    position: relative;
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+}
+
+.split-panel > div > .text-area
+{
+    line-height: 1.6em;
+
+    margin-bottom: 1em;
+}
+
+.split-panel > div > .text-area > .big
+{
+    font-size: 2em;
+}
+
+
+.split-panel > div img
+{
+    height: 1.3em;
+}
+
+@media (max-width: 500px)
+{
+    .split-panel > div img
+    {
+        display: none;
+    }
+}
+
+.split-panel button,
+.split-panel a.button
+{
+    font-family: 'Lato', sans-serif;
+    font-size: .5em;
+    font-weight: 800;
+
+    display: inline-block;
+
+    width: 15em;
+    padding: .7em;
+
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+       -moz-transition: all .2s ease-out;
+         -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+    text-decoration: none;
+
+    color: white;
+    border: 1px solid white;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    background: none;
+}
+
+.split-panel button:hover,
+.split-panel a.button:hover
+{
+    cursor: white;
+    text-decoration: none;
+
+    border-color: white;
+    background-color: white;
+}
+
+.split-panel button:hover,
+split-panel a.button:hover
+{
+    color: #385362;
+}
+
+.action-side.split-panel button:hover,
+.split-panel a.button:hover
+{
+    color: #e16262;
+}
+
+#split-panel-or
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+
+    color: white;
+}
+
+@media (max-width: 925px)
+{
+    #split-panel-or
+    {
+        top: 15%;
+    }
+}
+
+#split-panel-or > div img
+{
+    height: 2.5em;
+}
+
+@media (max-width: 500px)
+{
+    #split-panel-or
+    {
+        position: absolute;
+        top: 50px;
+    }
+    #split-panel-or > div img
+    {
+        height: 2em;
+    }
+}
+@media(min-width: 500px)
+{
+    #split-panel-or
+    {
+        font-size: 3em;
+    }
+}
+.big
+{
+    font-size: 2em;
+}
+
+.learnCoachingBtn {
+  border-color: white;
+  background-color: blue;
+  color: white;
+}
+
+.learnProgramBtn {
+  border-color: white;
+  background-color: purple;
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
